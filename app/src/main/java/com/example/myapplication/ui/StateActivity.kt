@@ -40,9 +40,9 @@ class StateActivity : AppCompatActivity() {
                     text = "I have been clicked $count times",
                     modifier = Modifier.align(Alignment.CenterVertically)
                 )
-                SideEffect(effect = { println("---- text count = $count ") })
+                println(effect = { println("---- text count = $count ") })
             }
-            SideEffect(effect = { println("---- out count = $count ") })
+            println(effect = { println("---- out count = $count ") })
         }
 
     }
@@ -62,9 +62,9 @@ class StateActivity : AppCompatActivity() {
                     text = "I have been clicked $count times",
                     modifier = Modifier.align(Alignment.CenterVertically)
                 )
-                SideEffect(effect = { println("---- text count = $count ") })
+                println(effect = { println("---- text count = $count ") })
             }
-            SideEffect(effect = { println("---- out count = $count ") })
+            println(effect = { println("---- out count = $count ") })
         }
 
     }
